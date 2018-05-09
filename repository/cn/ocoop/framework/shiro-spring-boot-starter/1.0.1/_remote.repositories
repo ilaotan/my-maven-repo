@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed May 09 11:39:18 CST 2018
+shiro-spring-boot-starter-1.0.1.jar>=
+shiro-spring-boot-starter-1.0.1-sources.jar>=
+shiro-spring-boot-starter-1.0.1.pom>=
