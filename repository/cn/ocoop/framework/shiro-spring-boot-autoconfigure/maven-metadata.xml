@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>cn.ocoop.framework</groupId>
-  <artifactId>shiro-spring-boot-starter</artifactId>
+  <artifactId>shiro-spring-boot-autoconfigure</artifactId>
   <versioning>
     <release>1.0.1.1</release>
     <versions>
       <version>1.0.1.1</version>
     </versions>
-    <lastUpdated>20180509053220</lastUpdated>
+    <lastUpdated>20180509062410</lastUpdated>
   </versioning>
 </metadata>
