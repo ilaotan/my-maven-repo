@@ -3,10 +3,10 @@
 
 命令  
 ```
-clean source:jar install -DcreateChecksum=true
+mvn clean source:jar deploy -DaltDeploymentRepository=my-repo::default::file:E:\svnRepository\githubMy\my-maven-repo\repository\
+
 ```
 
-从本地库里拷贝对应文件夹复制到当前的repository里,注意剔除 _remote.repositories(没试过不剔除是什么效果,应该影响不大)
 
 其他项目添加本仓库的引用  
 ```
