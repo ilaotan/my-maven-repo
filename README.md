@@ -25,8 +25,9 @@ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.
 ```
 
 2022年3月15日 更新
-可以使用 https://jitpack.io 来作为版本坐标.
-example: https://github.com/nacos-group/nacos-spring-boot-project/issues/185
+可以使用 https://jitpack.io 来作为版本坐标.  
+example: https://github.com/nacos-group/nacos-spring-boot-project/issues/185  
+
 ```
 <repositories>
 	  <repository>
