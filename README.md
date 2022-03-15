@@ -23,3 +23,20 @@ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.
     </snapshots>
 </repository>
 ```
+
+2022年3月15日 更新
+可以使用 https://jitpack.io 来作为版本坐标.
+example: https://github.com/nacos-group/nacos-spring-boot-project/issues/185
+```
+<repositories>
+	  <repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+	  </repository>
+</repositories>
+<dependency>
+	  <artifactId>nacos-config-spring-boot-starter</artifactId>
+	  <groupId>com.github.nacos-group.nacos-spring-boot-project</groupId>
+	  <version>93641fbbc57e583f93b70d71168fef9035a026e2</version>
+</dependency>
+```
